@@ -1,0 +1,12 @@
+[package]
+name = "traitify"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "traitify"
+path = "src/lib.rs"
+proc-macro = true
+
+[dependencies]
+traitify-core = { path = "../core" }
