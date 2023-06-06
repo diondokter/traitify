@@ -6,7 +6,7 @@ license = "MIT OR Apache-2.0"
 description = "A macro to turn an impl block into a trait. This is the logic behind the traitify crate."
 homepage = "https://github.com/diondokter/traitify"
 repository = "https://github.com/diondokter/traitify"
-readme = "../../README.md"
+readme = "../README.md"
 keywords = ["trait", "generic", "dyn", "macro"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

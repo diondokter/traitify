@@ -6,7 +6,7 @@ license = "MIT OR Apache-2.0"
 description = "A macro to turn an impl block into a trait"
 homepage = "https://github.com/diondokter/traitify"
 repository = "https://github.com/diondokter/traitify"
-readme = "../../README.md"
+readme = "../README.md"
 keywords = ["trait", "generic", "dyn", "macro"]
 
 [lib]

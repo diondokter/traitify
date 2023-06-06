@@ -1,4 +1,4 @@
-#![doc = include_str!(env!("CARGO_PKG_README"))]
+#![doc = include_str!("../../README.md")]
 
 #[proc_macro_attribute]
 pub fn traitify(
