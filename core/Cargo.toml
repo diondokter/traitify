@@ -2,11 +2,17 @@
 name = "traitify-core"
 version = "0.1.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "A macro to turn an impl block into a trait. This is the logic behind the traitify crate."
+homepage = "https://github.com/diondokter/traitify"
+repository = "https://github.com/diondokter/traitify"
+readme = "../README.md"
+keywords = ["trait", "generic", "dyn", "macro"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-syn = { version = "2", features = ["parsing", "full", "extra-traits"] }
+syn = { version = "2", features = ["parsing", "full"] }
 proc-macro2 = "1"
 quote = "1"
 

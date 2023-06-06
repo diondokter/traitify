@@ -2,6 +2,12 @@
 name = "traitify"
 version = "0.1.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "A macro to turn an impl block into a trait"
+homepage = "https://github.com/diondokter/traitify"
+repository = "https://github.com/diondokter/traitify"
+readme = "../README.md"
+keywords = ["trait", "generic", "dyn", "macro"]
 
 [lib]
 name = "traitify"
@@ -9,4 +15,4 @@ path = "src/lib.rs"
 proc-macro = true
 
 [dependencies]
-traitify-core = { path = "../core" }
+traitify-core = { version = "0.1.0", path = "../core" }
